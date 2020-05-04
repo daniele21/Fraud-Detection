@@ -1,9 +1,18 @@
 # Fraud-Detection
 Kaggle Competition about Fraud Detection
 
-https://www.kaggle.com/c/ieee-fraud-detection
+Dataset from: https://www.kaggle.com/c/ieee-fraud-detection
 
-Fraud Detection model based on Semi-Supervised Learning. This model is based on Deep Learning method, using the Autoencoder architecture to solve this problem. 
+Description: Fraud Detection model based on Semi-Supervised Learning. This model is based on Deep Learning method, using the Autoencoder architecture to solve this problem. 
+
+Model details:
+  - Data: Just non-fraud data
+  - Autoencoder: Encoder and Decoder with 3 layer each
+  - Loss function: MSE
+  - Optimization: Adam
+  - Score Function: MSE
+
+
 
 > -----------------------
 >-Test Results:
