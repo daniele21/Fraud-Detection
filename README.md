@@ -18,6 +18,7 @@ Fraud Detection model based on Semi-Supervised Learning. This model is based on 
 ### Test results:
 >
 > Detected Frauds:  16934
+>
 > Real Frauds:      20663
 >
 > Accuracy: 0.820
