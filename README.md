@@ -4,24 +4,39 @@
 https://www.kaggle.com/c/ieee-fraud-detection
 
 ## Description: 
-Fraud Detection model based on Semi-Supervised Learning. This model is based on Deep Learning method, using the Autoencoder architecture to solve this problem. 
+Fraud Detection models:
+- Autoencoder based on Semi-Supervised Learning.
+- Random Forest based on Supervised Learning.
 
 # Model details:
+- Autoencoder:
   - Data: Just NON-FRAUD data
-  - Autoencoder: Encoder and Decoder with 3 layer each
-  - Loss function: MSE
+  - Architecture: Encoder and Decoder with 3 layer each
+  - Loss function: L1 Loss
   - Optimization: Adam
-  - Score Function: MSE
+  - Score Function: L1 Loss
   - Evaluation: AUC - Accuracy
+  
+
+- Random Forest:
+  - Data: All Data
+  - Evaluation: AUC
   
 # Evaluation:
 ### Test results:
->
+> Autoencoder:
+
 > Detected Frauds:  16934
 >
 > Real Frauds:      20663
 >
+>
 > Accuracy: 0.820
 
+> Random Forest:
+
+
 # Competition Result:
-> AUC: 0.79
+> Autoencoder: AUC = 0.79
+> Random Forest: AUC = 0.88
+
