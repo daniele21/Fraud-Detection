@@ -31,12 +31,11 @@ Fraud Detection models:
 > Real Frauds:      20663
 >
 >
-> Accuracy: 0.820
-
-> Random Forest:
+> Accuracy: 0.82
 
 
 # Competition Result:
 > Autoencoder: AUC = 0.79
+
 > Random Forest: AUC = 0.88
 
