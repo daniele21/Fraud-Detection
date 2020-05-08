@@ -16,10 +16,10 @@ Fraud Detection model based on Semi-Supervised Learning. This model is based on 
   
 # Evaluation:
 ### Test results:
-> Detected Frauds : 4449
-> Real Frauds:      4976
+> Detected Frauds:           16934
+> Real Frauds:               20663
 >
-> Accuracy: 0.894
+> Accuracy: 0.820
 
 # Competition Result:
-> AUC: 0.79 (0.85)
+> AUC: 0.79
