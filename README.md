@@ -26,12 +26,12 @@ Fraud Detection models:
 ### Test results:
 > Autoencoder:
 
-> Detected Frauds:  16934
+> Detected Frauds:  18627
 >
 > Real Frauds:      20663
 >
 >
-> Accuracy: 0.82
+> Accuracy: 0.901
 
 
 # Competition Result:
